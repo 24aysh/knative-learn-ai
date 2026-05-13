@@ -1,0 +1,5 @@
+func CLI = lets you create/build/run/deploy Knative functions manually
+func mcp = lets an AI coding agent use those func capabilities as tools
+
+Kapil's project -> extending the capabilities of AI Agent using MCP to deploy those funcs using natural language prompts
+Made tools, that processes natural language prompts to deploy,create,build,list Knative functions
