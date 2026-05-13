@@ -1,0 +1,9 @@
+# $schema: https://raw.githubusercontent.com/knative/func/3804dc9b/schema/func_yaml-schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/knative/func/3804dc9b/schema/func_yaml-schema.json
+specVersion: 0.36.0
+name: hello
+runtime: go
+registry: docker.io/4yuxh
+created: 2026-05-13T06:31:45.901691177+05:30
+build:
+  builder: pack

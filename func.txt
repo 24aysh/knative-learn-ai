@@ -1,0 +1,2 @@
+Knative is a Kubernetes-based platform for serverless workloads
+kn func -> lets you write small functions and run them on k8s without manually doing docker k8s deployment etc.
