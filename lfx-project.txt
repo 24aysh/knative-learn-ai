@@ -1,17 +1,3 @@
-The things that the current MCP ignores
-    1. Is func installed?
-    2. Is kubectl installed?
-    3. Is kubeconfig valid?
-    4. Is the current context safe?
-    5. Is Knative installed?
-    6. Is Docker/Podman available?
-    7. Is a registry configured?
-    8. Can the registry be pushed to?
-    9. Is Git initialized?
-    10. Is GitHub remote configured?
-    11. Are GitHub Actions secrets configured?
-    12. Can func config ci generate the workflow?
-    13. Can deployment actually work?
 
 TODO -> Make Knative Functions usable through an AI agent from a blank/dev machine all the way to CI/CD deployment, without the agent blindly guessing commands or producing fragile instructions.
 
