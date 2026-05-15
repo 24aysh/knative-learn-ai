@@ -1,0 +1,2 @@
+Add new tools that func cli has mcp does not like func invoke, func run, func subscribe, func confg etc
+Add missing resources for above tools 

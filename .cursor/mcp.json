@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "func-mcp": {
+      "command": "/usr/local/bin/func",
+      "args": ["mcp", "start"],
+      "env": {
+        "FUNC_ENABLE_MCP_WRITE": "true"
+      }
+    }
+  }
+}

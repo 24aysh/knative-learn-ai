@@ -1,0 +1,55 @@
+I configured Cursor Manually by adding the mcp.json -> i can do this using skills and initialize it
+
+New MCP tools -> List available skills
+				 Install available skills
+					func mcp skill install
+					    ↓
+					detect supported agent/client
+					    ↓
+					find skill installation path
+					    ↓
+					copy knative-function-lifecycle/SKILL.md
+					    ↓
+					optionally update MCP client config
+					    ↓
+					verify skill is installed
+
+					Available tools
+				Example use-case -> func mcp skill install --client claude-code
+
+Initial Setup -> install tools, make environment 
+
+
+Create -> func create
+Build -> func build
+Deploy -> func deploy
+List -> List available functions
+Delete -> delete functions
+MCP health check -> internal command (not func related)
+
+
+
+Prerequiste check
+	Local machine:
+	    func installed?
+	    git installed?
+	    docker/podman available?
+	    language runtime available?
+
+	Cluster:
+	    kubectl installed?
+	    kubeconfig valid?
+	    cluster reachable?
+	    Knative Serving installed?
+	    namespace exists?
+
+	Registry:
+	    registry configured?
+	    credentials available?
+	    image can be pushed?
+
+	CI/CD:
+	    git repo exists?
+	    remote exists?
+	    workflow directory exists?
+	    required secrets known?

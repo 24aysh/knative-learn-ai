@@ -1,0 +1,12 @@
+1. Read issue #3646 fully.
+2. Read pkg/mcp.
+3. Run func mcp locally.
+4. Configure one MCP client.
+5. Create/build a simple function via the agent.
+6. Run func config ci manually.
+7. Inspect generated GitHub workflow.
+8. List every failure point you hit.
+9. Convert those failure points into prerequisite checks.
+10. Draft a design comment for maintainers
+
+
