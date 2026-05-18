@@ -2,3 +2,6 @@ Add new tools that func cli has mcp does not like func invoke, func run, func su
 Add missing resources for above tools 
 
 Skills -> add a new skill that takes 
+
+Issue -> how will i take those skills to user as they will be present locally in .cursor or .claude etc
+Fix -> We can add new MCP tool and based on the agent/IDE, it will install those skills

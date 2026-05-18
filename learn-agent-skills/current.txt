@@ -53,3 +53,14 @@ Prerequiste check
 	    remote exists?
 	    workflow directory exists?
 	    required secrets known?
+
+Read about builders -> s2i, host, plan
+
+
+Test-func -> temp
+Created the func
+Building -> asks for docker registry
+.git is not made when i make the function (ask it in the prompt whether there exists some way to it)
+FUNC_ENABLE_CI_CONFIG=true func config ci -> generates github actions workflow
+Then i need to push the code, manually add env variables like KUBECONFIG, REGISTRY Password -> at first glance, these might be new things for user
+Knative serving is a bit tedious for new comers
